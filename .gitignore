@@ -1,0 +1,8 @@
+.dccache
+.mypy_cache
+.vscode
+build/
+dist/
+kcore_migrate.egg-info
+*.pyc,*.pyo
+__pycache__
