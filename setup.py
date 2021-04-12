@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="kcore_migrate", 
-    version="0.0.2",
+    name="kcore_migrate",
+    version="0.0.3",
     author="Arun Tigeraniya",
     author_email="tigeraniya@gmail.com",
     description="migration management system for python",
@@ -18,6 +18,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
-    install_requires=['asyncpg',]
+    python_requires=">=3.6",
+    install_requires=[
+        "asyncpg",
+    ],
 )
